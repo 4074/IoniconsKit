@@ -11,7 +11,7 @@ public extension UIFont {
   /// - parameter size: The preferred font size.
   /// - returns: A UIFont object of Ionicons.
   public class func ionicon(of size: CGFloat) -> UIFont {
-    let name = "ionicons"
+    let name = "ionicons-v3"
     if UIFont.fontNames(forFamilyName: name).isEmpty {
       FontLoader.load(name)
     }
